@@ -21,7 +21,7 @@ function displayBooks(){
             let buttons = document.createElement("input") //creating the button element
             buttons.setAttribute("type", "submit")
             buttons.className = "info-button";
-            buttons.addEventListener("submit", displayInfo());
+            buttons.addEventListener("submit", displayInfo()); // subit event listener
             bookContainer.textContent = book.name;
             bookContainer.appendChild(buttons);
             displayBlock.appendChild(bookContainer);
