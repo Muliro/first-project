@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", displayBooks()); //event listener 
 
 function displayBooks(){
     let displayBlock = document.getElementById("display-books");
-    fetch("https://www.anapioficeandfire.com/api/books")
+    fetch("https://www.anapioficeandfire.com/api/books") // querying the api for data
     .then(response => response.json())
     .then(function(data){
         for(book of data){
