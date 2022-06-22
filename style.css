@@ -1,0 +1,55 @@
+
+
+
+
+
+
+
+#display-books{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('game-1.jpeg');
+    border-radius: 20px;
+}
+
+
+
+h1{
+    text-align:center;
+    background-color: skyblue;
+
+}
+
+
+
+h2{
+  padding:50px;
+}
+
+h2:hover{
+  background-color: skyblue;
+  border-radius: 10px;
+  margin-left: 250px;
+  margin-right:250px;
+}
+
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+
+.info-button{
+  font-size: 10px;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+.info-button:hover{
+  background-color:cornflowerblue;
+}
+
+#info-section{
+  background-image: url('game-1.jpeg');
+  color:black;
+  border-radius: 20px;
+}
