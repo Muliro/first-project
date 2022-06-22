@@ -18,7 +18,7 @@ function displayBooks(){
     .then(function(data){
         for(book of data){
             let bookContainer = document.createElement("h2");
-            let buttons = document.createElement("input")
+            let buttons = document.createElement("input") //creating the button element
             buttons.setAttribute("type", "submit")
             buttons.className = "info-button";
             buttons.addEventListener("submit", displayInfo());
