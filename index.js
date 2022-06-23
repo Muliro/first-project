@@ -17,7 +17,7 @@ function displayBooks(){
     .then(response => response.json())
     .then(function(data){
         for(book of data){
-            let bookContainer = document.createElement("h2");
+            let bookContainer = document.createElement("h2"); // h2 element for each book
             let buttons = document.createElement("input") //creating the button element
             buttons.setAttribute("type", "submit")
             buttons.className = "info-button";
